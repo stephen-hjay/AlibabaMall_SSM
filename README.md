@@ -1,18 +1,19 @@
-# tmall_ssm
+# Alibaba Mall based on Spring, Spring MVC and MyBatis
 
-#### 介绍
-参照how2j网站进行开发的ssm框架项目
+## Introduction
+This Project is the improved version of [JavaWeb](https://github.com/stephen-hjay/TMall_JavaWeb), reconstructed by SSM.
 
-#### 软件架构
-采用SpringMVC+Spring+MyBatis框架进行开发
+## Software Framework
+This project is implemented in Spring, Spring MVC and MyBatis. 
 
-#### Improvement
-1.  使用Bootbox.js优化对话框功能(相关操作前的用户交互逻辑)
-2.  使用toastr.js优化消息提示功能
-3.  分页增加显示页数和总数量、符号提示
-4.  后台管理中，对输入框进行合理性校验，规范输入值
-5.  部分图片使用zoom.js实现放大效果
-6.  使用validator.js优化用户注册/登录校验，实现图片验证码功能，异步方式提交数据
-7.  使用AES加解密参数，做到数据安全
-8.  采用局部刷新方式，为分类、属性、产品增加查询功能，同时应用到分页功能中，实现上下移动功能
+## Improvement
+1.  Optimized the UI dialog based on Bootbox.js, optimized the user interacting logic;
+2.  Optimized the message cue function based on toastr.js;
+3.  Improved the paging UI;
+4.  Add reasonable checking in input box, for regulating input value;
+5.  Provide zooming function for product photos based on zoom.js;
+6.  Implemented photo verification code and optimized the user register/login function based on validator.js, realizing data asynchronously post;
+7.  Implemented AES data encryption, realizing data security transfer;
+8.  Implementing partial refreshment, add some query functions for category, property and product.
+
 
