@@ -1,4 +1,4 @@
-# Alibaba Mall based on Spring, Spring MVC and MyBatis
+# Alibaba Mall
 
 ## Introduction
 This Project is the improved version of [JavaWeb](https://github.com/stephen-hjay/TMall_JavaWeb), reconstructed by SSM.
