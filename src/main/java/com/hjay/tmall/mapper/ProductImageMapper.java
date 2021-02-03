@@ -1,0 +1,22 @@
+package com.hjay.tmall.mapper;
+
+import com.hjay.tmall.po.ProductImage;
+import com.hjay.tmall.po.ProductImageExample;
+
+import java.util.List;
+
+public interface ProductImageMapper extends EntityMoveMapper<ProductImage> {
+    int deleteByPrimaryKey(Integer id);
+
+    int insert(ProductImage record);
+
+    int insertSelective(ProductImage record);
+
+    List<ProductImage> selectByExample(ProductImageExample example);
+
+    ProductImage selectByPrimaryKey(Integer id);
+
+    int updateByPrimaryKeySelective(ProductImage record);
+
+    int updateByPrimaryKey(ProductImage record);
+}
